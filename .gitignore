@@ -1,0 +1,61 @@
+# --- Arquivos e pastas específicos do PyCharm ---
+.idea/
+*.iml
+
+# --- Arquivos de configurações e metadados ---
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+
+# --- Virtualenvs / Ambientes virtuais ---
+venv/
+.venv/
+env/
+ENV/
+.ENV/
+env.bak/
+venv.bak/
+
+# --- Logs e outros arquivos temporários ---
+*.log
+*.log.*
+*.swp
+*.swo
+*.swn
+*.tmp
+*.temp
+
+# --- Build e distribuição ---
+build/
+dist/
+wheelhouse/
+*.egg-info/
+.eggs/
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints
+
+# --- Configurações de IDE genéricas ---
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# --- Arquivos de teste ---
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+test_results/
+
+# --- Docker, se aplicável ---
+*.stackdump
+docker-compose.override.yml
+
+# --- Outros ---
+# Se você tiver um arquivo de configuração local que não deseja versionar
+local_settings.py
